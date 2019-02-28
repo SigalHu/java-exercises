@@ -13,6 +13,7 @@
     </modules>
 
     <properties>
+        <transmittable-thread-local.version>2.10.2</transmittable-thread-local.version>
         <!--test-->
         <junit.version>4.12</junit.version>
 
@@ -25,6 +26,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>${transmittable-thread-local.version}</version>
+        </dependency>
+
         <!--test-->
         <dependency>
             <groupId>junit</groupId>
